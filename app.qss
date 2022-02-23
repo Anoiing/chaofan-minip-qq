@@ -1,3 +1,6 @@
+@import '/colorui/main.qss';
+@import '/colorui/icon.qss';
+
 .container {
   height: 100%;
   display: flex;
