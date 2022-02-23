@@ -1,9 +1,14 @@
 // /Users/anoiv/mySpace/chaofun/pages/home/home.js
 Page({
   data: {
-
+    menuList: []
   },
-  onLoad: function (options) {
-
+  onLoad: () => {
+    qq.$request({ url: '/api/get_menu' }).then((r) => {
+      console.log(r);
+    });
+  },
+  onShow: () => {
+    console.log(qq);
   }
-})
+});
