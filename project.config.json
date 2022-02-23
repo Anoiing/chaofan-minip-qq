@@ -25,7 +25,11 @@
 	},
 	"qqappid": "1111929237",
 	"projectname": "chaofun",
-	"scripts": {},
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
 	"condition": {
 		"search": {
 			"current": -1,

@@ -1,0 +1,25 @@
+{
+  "name": "chaofun",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://anoiv-aquarius@bitbucket.org/laborer-admin/chaofun.git"
+  },
+  "author": "Anoiing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://bitbucket.org/laborer-admin/chaofun/issues"
+  },
+  "homepage": "https://bitbucket.org/laborer-admin/chaofun#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "querystringify": "^2.2.0"
+  }
+}
