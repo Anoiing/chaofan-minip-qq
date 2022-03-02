@@ -2,8 +2,8 @@
   <scroll-view class="platesNav nav" scroll-y scroll-with-animation scroll-top="{{vNavTop}}">
     <view
       class="cu-item {{index === activeIdx ? 'text-orange cur' : ''}}"
-      wx:for="{{classicList}}"
-      wx:key="index"
+      qq:for="{{classicList}}"
+      qq:key="index"
       bindtap="onClassicSelect"
       data-idx="{{index}}"
     >{{item.name}}</view>
@@ -16,8 +16,8 @@
     <view class="padding-sm">
       <view
         class="forum-item margin-right-sm margin-bottom-sm"
-        wx:for="{{forumList}}"
-        wx:key="index"
+        qq:for="{{forumList}}"
+        qq:key="index"
       >
         <button class="cu-btn shadow bg-white">
           <image

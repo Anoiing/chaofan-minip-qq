@@ -22,7 +22,6 @@ Page({
   // 分类选择
   onClassicSelect(e) {
     const idx = e.currentTarget.dataset.idx;
-    console.log(idx, this.data.classicList);
     const classId = this.data.classicList[idx].id;
     this.setData({
       activeIdx: idx,
