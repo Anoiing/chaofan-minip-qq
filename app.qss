@@ -1,6 +1,26 @@
 @import '/colorui/main.qss';
 @import '/colorui/icon.qss';
 
+page {
+  --primary: '#fe7f08';
+  --red: '#FF3B30';
+  --yellow: #ffcc00;
+  --olive: #8dc63f;
+  --green: #4cd964;
+  --cyan: #1cbbb4;
+  --blue: #007aff;
+  --purple: #6739b6;
+  --mauve: #9c26b0;
+  --pink: #e03997;
+  --brown: #a5673f;
+  --grey: #8799a3;
+  --black: #070300;
+  --darkGray: #666666;
+  --gray: #aaaaaa;
+  --ghostWhite: #f1f1f1;
+  --white: #ffffff;
+}
+
 .container {
   height: 100%;
   display: flex;
@@ -9,4 +29,8 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
+}
+
+.active {
+  font-weight: bolder;
 }
