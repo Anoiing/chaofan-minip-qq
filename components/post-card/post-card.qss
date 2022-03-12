@@ -1,0 +1,32 @@
+.post-card {
+  /* box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1); */
+  border-radius: 10rpx;
+  padding: 0 30rpx;
+  background-color: #fff;
+  margin: 20rpx;
+}
+
+.post-card-head {
+  display: flex;
+  padding: 25rpx 0 15rpx;
+  border-bottom: 1px solid #ddd;
+}
+
+.post-card-head .post-card-title {
+  flex: 1;
+  font-size: 30rpx;
+  font-weight: bolder;
+}
+
+.post-card-head .post-card-time {
+  flex: none;
+}
+
+.post-card-content {
+  padding: 25rpx 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.post-card-footer {
+  padding: 15rpx 0 25rpx;
+}

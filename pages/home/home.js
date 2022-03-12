@@ -39,6 +39,7 @@ Page({
       let menuList = [];
       data.forEach((o) => (menuList = menuList.concat(o.menues)));
       this.setData({ menuList });
+      this.getCombineList();
     });
   },
   onShow() {},
