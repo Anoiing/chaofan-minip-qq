@@ -1,6 +1,7 @@
 {
   "navigationStyle": "custom",
   "usingComponents": {
-    "post-card": "/components/post-card/post-card"
+    "post-card": "/components/post-card/post-card",
+    "menu-tab-bar": "/components/menu-tab-bar/menu-tab-bar"
   }
 }

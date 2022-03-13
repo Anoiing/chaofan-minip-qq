@@ -1,0 +1,38 @@
+.cf-menu-tab-bar-container {
+  width: calc(100% - 56rpx);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  padding: 28rpx;
+  margin-top: -112rpx;
+}
+
+.cf-menu-tab-bar-container .cf-menu-tab-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 36rpx;
+  background-color: rgba(255, 248, 241, 0.8);
+  padding: 16rpx 14rpx 24rpx;
+}
+
+.cf-menu-tab-bar .tab-bar-item {
+  display: inline-flex;
+}
+
+.tab-bar-item .active-menu-ring {
+  display: inline-flex;
+  padding: 10rpx;
+  border-radius: 50%;
+}
+
+.active-menu-ring.ring-active {
+  background-color: var(--white);
+  box-shadow: 10rpx 10rpx 16rpx var(--orange);
+}
+
+.tab-bar-item image {
+  width: 52rpx;
+  height: 52rpx;
+}

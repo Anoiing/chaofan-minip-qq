@@ -6,43 +6,6 @@
     "pages/message/message",
     "pages/me/me"
   ],
-  "tabBar": {
-    "color": "#9a9999",
-    "selectedColor": "#130f1a",
-    "backgroundColor": "#f5f5f9",
-    "list": [
-      {
-        "pagePath": "pages/home/home",
-        "iconPath": "assets/home_h.png",
-        "selectedIconPath": "assets/home.png",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/plates/plates",
-        "iconPath": "assets/plates_h.png",
-        "selectedIconPath": "assets/plates.png",
-        "text": "板块"
-      },
-      {
-        "pagePath": "pages/publish/publish",
-        "iconPath": "assets/publish.png",
-        "selectedIconPath": "assets/publish.png",
-        "text": "发布"
-      },
-      {
-        "pagePath": "pages/message/message",
-        "iconPath": "assets/message_h.png",
-        "selectedIconPath": "assets/message.png",
-        "text": "消息"
-      },
-      {
-        "pagePath": "pages/me/me",
-        "iconPath": "assets/me_h.png",
-        "selectedIconPath": "assets/me.png",
-        "text": "我的"
-      }
-    ]
-  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#000",

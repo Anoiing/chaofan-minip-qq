@@ -1,4 +1,6 @@
 <view class="platesContainer flex">
+  <!-- 背景图片 -->
+  <view class="cf-bg" style="height: 100%"></view>
   <scroll-view class="platesNav nav" scroll-y scroll-with-animation scroll-top="{{vNavTop}}">
     <view
       class="cu-item {{index === activeIdx ? 'text-orange cur' : ''}}"
@@ -30,4 +32,5 @@
       </view>
     </view>
   </scroll-view>
+  <menu-tab-bar active="1" />
 </view>

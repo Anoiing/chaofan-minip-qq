@@ -51,6 +51,7 @@
       </view>
     </picker>
   </view>
+  <!--
   <scroll-view scroll-y class="list-container" >
     <post-card
       qq:for="{{combineList}}"
@@ -59,4 +60,6 @@
       data="{{item}}"
     />
   </scroll-view>
+  -->
+  <menu-tab-bar active="0" />
 </view>

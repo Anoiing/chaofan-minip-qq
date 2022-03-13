@@ -1,2 +1,5 @@
-<!-- /Users/anoiv/mySpace/chaofun/pages/publish/publish.ttml -->
-<text>/Users/anoiv/mySpace/chaofun/pages/publish/publish.ttml</text>
+<view>
+  <!-- 背景图片 -->
+  <view class="cf-bg" style="height: 100%"></view>
+  <menu-tab-bar active="2" />
+</view>
