@@ -4,6 +4,10 @@ Component({
     innerText: {
       type: String,
       value: 'default value'
+    },
+    data: {
+      type: Object,
+      value: {}
     }
   },
   data: {

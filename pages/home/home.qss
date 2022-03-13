@@ -1,44 +1,103 @@
-/* /Users/anoiv/mySpace/chaofun/pages/home/home.ttss */
-.homeMenuBar {
-  height: 80rpx;
-  width: 100vw;
+.searcher {
+  display: flex;
+  align-items: center;
+  padding-right: 208rpx;
+  padding-left: 32rpx;
 }
 
-.homeMenuBar .menu-item {
-  width: auto;
-  text-align: center;
-  margin: 0;
-  height: 80rpx;
-  line-height: 80rpx;
+.searcher .searcher-icon {
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+  margin-right: 28rpx;
+}
+
+.searcher .cficon {
+  display: inline-block;
+  font-size: 50rpx;
+}
+
+.searcher .searcher-input {
+  flex: 1;
+}
+
+.searcher .searcher-input input {
+  width: 100%;
+  font-size: 38rpx;
+  color: var(--white);
+}
+
+.category-menu {
+  display: flex;
+  align-items: center;
+  padding: 14rpx 28rpx 28rpx;
+}
+
+.category-menu .category-menu-menus {
+  width: calc(100% - 134rpx);
+  flex: 1;
+  white-space: nowrap;
+}
+
+.category-menu-menus .category-menu-item {
+  display: inline-block;
   position: relative;
+  padding: 8rpx 24rpx;
+  background-color: rgba(255, 248, 241, 0.8);
+  border-radius: 12rpx;
+  font-size: 32rpx;
+}
+
+.category-menu-menus .category-menu-item:not(:last-child) {
+  margin-right: 30rpx;
+}
+
+.category-menu-menus .category-menu-item.active {
+  background-color: var(--white);
+  font-weight: bolder;
+  color: var(--orange);
+}
+
+.category-menu .category-menu-filter {
+  flex: none;
+  margin-left: 28rpx;
+  display: inline-flex;
+  align-items: center;
+}
+
+.category-menu .category-menu-filter .cficon-filter {
+  font-size: 50rpx;
   display: inline-block;
-  font-size: 30rpx;
 }
 
-.menu-item.active {
-  color: #fe7f08;
-  border-bottom: 2px solid #fe7f08 !important;
+.menu-filter {
+  display: flex;
+  align-items: center;
+  padding: 0 28rpx 10rpx;
+  margin-top: -4rpx;
 }
 
-.list-order .list-order-item {
+.menu-filter .menu-filter-item {
+  border: 2rpx solid var(--white);
+  color: var(--white);
+  padding: 4rpx 14rpx;
+  font-size: 28rpx;
+  border-radius: 12rpx;
+}
+
+.menu-filter .menu-filter-item:not(:last-child) {
+  margin-right: 28rpx;
+}
+
+.menu-filter .menu-filter-item .time-range {
   display: inline-block;
-  height: 80rpx;
-  line-height: 80rpx;
-  padding: 0 30rpx;
-  color: #999;
 }
 
-.list-order-item.active {
-  font-size: 30rpx;
-  color: var(--black);
-}
-
-.time-range-picker {
-  display: inline-block;
-}
-
-.list-order-item .time-range {
-  font-size: 22rpx;
-  display: inline-block;
-  line-height: 1;
+.list-container {
+  width: auto;
+  border-top-left-radius: 36rpx;
+  border-top-right-radius: 36rpx;
+  background-color: var(--white);
+  padding: 28rpx;
+  margin-top: 16rpx;
 }

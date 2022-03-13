@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'cficon'; /* Project id 3242041 */
+  /* Color fonts */
+  src: url('//at.alicdn.com/t/font_3242041_1hu5ai9fjkg.woff2?t=1647100244185')
+      format('woff2'),
+    url('//at.alicdn.com/t/font_3242041_1hu5ai9fjkg.woff?t=1647100244185')
+      format('woff'),
+    url('//at.alicdn.com/t/font_3242041_1hu5ai9fjkg.ttf?t=1647100244185')
+      format('truetype');
+}
+
+.cficon {
+  font-family: 'cficon' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cficon-filter:before {
+  content: '\e822';
+}
+
+.cficon-search:before {
+  content: '\e820';
+}

@@ -17,11 +17,13 @@ Page({
     statusBarHeight: 0,
     navHeight: 44,
     menuActive: 0,
+    orderVisible: false,
     orderActive: 0,
     rangeActive: 0,
     menuList: [],
     orderList,
-    timeRange
+    timeRange,
+    combineList: []
   },
   onLoad() {
     qq.showLoading({
@@ -50,6 +52,9 @@ Page({
   onClassicSelect(e) {
     const idx = e.currentTarget.dataset.idx;
     this.setData({ menuActive: idx }, () => this.getCombineList());
+  },
+  onToggleFilter() {
+    this.setData({ orderVisible: !this.data.orderVisible });
   },
   // 排序方式修改（最新/最热/新评/最赞）
   onOrderSelect(e) {
@@ -82,6 +87,7 @@ Page({
       params: { order, range, forumId, pageSize: 20 }
     }).then(({ data }) => {
       console.log(data, 'CombineList');
+      this.setData({ combineList: data.posts });
     });
   }
 });
